@@ -1,0 +1,112 @@
+
+.zeroSquareNode, .multiChancesNode {
+    -fx-pref-width: 40px;
+    -fx-pref-height: 40px;
+    -fx-text-fill: white;
+    -fx-focus-color: transparent;
+    -fx-border-width: 2px;
+    -fx-font-weight: bold;
+}
+
+.zeroSquareNode {
+    -fx-background-color: #6DA34D;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+
+}
+
+.multiChancesNode {
+    -fx-background-color: #FFE74C;
+    -fx-border-color: black;
+}
+
+.propositionsNode {
+    -fx-background-color: #548687;
+    -fx-border-color: black;
+}
+
+.remainingChancesPane {
+    -fx-pref-width: 30px;
+    -fx-pref-height: 30px;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+    -fx-background-color: #ECF0F1;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-border-color: black;
+    -fx-border-width: 3px;
+
+}
+
+.propositionButton {
+    -fx-pref-width: 35px;
+    -fx-pref-height: 20px;
+    -fx-background-radius: 0;
+    -fx-font-weight: bold;
+    -fx-font-size: 11px;
+    -fx-background-color: #548687;
+    -fx-text-fill: white;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-insets: 0 0 -1 0;
+}
+
+.propositionButton:hover {
+    -fx-background-color: #1abc9c;
+    -fx-text-fill: black;
+}
+
+.squaresPane:disabled * {
+    -fx-opacity: 0.90;
+}
+
+.nextWordPane {
+    -fx-font-size: 13px;
+    -fx-background-radius: 0px;
+}
+
+.hintPane > *{
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-font-family: consolas;
+    -fx-background-color: white;
+}
+
+.answerPane {
+    -fx-font-weight: bold;
+}
+
+.topHeaderGameSession {
+    -fx-font-size: 13px;
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: black;
+}
+
+.volumeController:hover {
+    -fx-effect: dropshadow(gaussian, gray, 5, 0, 0, 0);
+}
+
+.replayButton, .closeButton {
+    -fx-background-color: #1abc9c;
+    -fx-background-radius: 0px;
+    -fx-pref-width: 120px;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 0px;
+    -fx-text-fill: black;
+    -fx-border-insets: 0 0 -2 0;
+    -fx-font-size: 15px;
+
+}
+
+.replayButton:hover, .closeButton:hover {
+    -fx-cursor: hand;
+}
+
+.gameSession{
+    -fx-background-image: url("./images/backGroundimage.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100% 100%;
+}

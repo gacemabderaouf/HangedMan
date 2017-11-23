@@ -1,0 +1,14 @@
+ID	PLAYER		SCORE
+1 -	abdenour		   0
+2 -	alim		   0
+3 -	amine		   0
+4 -	djamel		   0
+5 -	mekh		   0
+6 -	mekh		   -58
+7 -	nadir		   0
+8 -	raouf		   0
+9 -	raouf		   -56
+10 -	raouf		   400
+11 -	raouf		   170
+12 -	yacine		   0
+13 -	yassine		   0
